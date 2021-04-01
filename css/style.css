@@ -1,0 +1,42 @@
+body{
+    padding-top: 50px;
+    font-family: tahoma, arial;
+    overflow: hidden
+
+}
+h1,h2,h3,h4,h5{
+    font-family: Sriracha, cursive
+}
+@media (max-width:767px) {
+    
+    h1, h2{
+        font-size: 30px
+    }
+    .navbar-inverse .navbar-nav > li > a{
+        padding-bottom: 10px !important
+    }
+    .carousel .carousel-indicators{
+        display: none
+    }
+    .testmonials .carousel .carousel-inner .item img{
+        margin-left: auto;
+        margin-bottom: 20px
+    }
+    .testmonials .carousel .carousel-inner .item h4,
+    .testmonials .carousel .carousel-inner .item p{
+        text-align: center
+    }
+    .our-skills .team-info{
+        text-align: center
+    }
+    .footer h3{
+        margin-top: 15px !important
+    }
+}
+.about{
+    padding-top: 60px;
+    padding-bottom: 60px
+}
+.about .container h3{
+    font-weight: 600
+}
